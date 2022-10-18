@@ -1,0 +1,26 @@
+{
+  "name": "kawapersonalpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded src/assets/scss:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed src/assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarolW47/kawaPersonalPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarolW47/kawaPersonalPage/issues"
+  },
+  "homepage": "https://github.com/KarolW47/kawaPersonalPage#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
